@@ -85,3 +85,31 @@ p numbers.at(2)
 # returns nil if doesn't exist
 p numbers[9999]
 p numbers.at 10000
+
+p numbers.include? 1
+
+nums = [3, 10, 9, 5, 1, 2]
+nums << 6
+p nums.sort!
+
+# array = []
+# p array.methods
+# p array.methods.count 
+
+p nums.reverse
+
+arr = [1, 2, [3, 4, [5, 6]], nil, nil, nil]
+p arr.flatten! # flattens nested arrays
+p arr.compact! # removes nil elements
+p arr.product # opposite of flatten, makes each index into an array
+p arr.length # length of array
+p arr.count # count of array
+p arr.size # size of array
+# effectively the same
+
+# when invoking min or max on an array, the array can not have nil values
+# can use compact prior to remove nil values
+
+# desructive and non destructive
+
+# question mark? indicates the method returns a boolean

@@ -23,3 +23,5 @@ obj1 = GetterSetter.new('aaron')
 obj1.name = 'andy'
 
 puts obj1.name
+
+
